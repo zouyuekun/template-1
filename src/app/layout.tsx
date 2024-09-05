@@ -1,11 +1,15 @@
-"use client";
-
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
+import dynamic from 'next/dynamic';
 
 const inter = Inter({ subsets: ["latin"] });
+
+// 动态导入 ThemeProvider，并禁用 SSR
+const ThemeProvider = dynamic(
+  () => import("@/components/theme-provider").then((mod) => mod.ThemeProvider),
+  { ssr: false }
+);
 
 export default function RootLayout({
   children,
@@ -14,15 +18,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
+      <body>
+        <div className={inter.className}>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {children}
+          </ThemeProvider>
+        </div>
       </body>
     </html>
   );
