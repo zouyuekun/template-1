@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Hero Section Web Template
 
-## Getting Started
+A modern, responsive Next.js template featuring eye-catching designs, multiple layouts, and unique animations. Perfect for creating stunning hero sections for your web projects in 2024 and beyond.
 
-First, run the development server:
+## Features
 
-```bash
+- Responsive design
+- Dynamic animations using Framer Motion
+- Custom UI components
+- Theme provider for dark mode support
+- Optimized font loading with next/font
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/nextjs-hero-template.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd nextjs-hero-template
+   ```
+
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+## Usage
+
+Run the development server:
+
+bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Configuration
 
-## Learn More
+This project uses Next.js 13+ with the App Router. Make sure your `next.config.js` is set up correctly for your needs.
 
-To learn more about Next.js, take a look at the following resources:
+Environment variables can be set in `.env.local` file:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+NEXT_PUBLIC_API_URL=your_api_url_here
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+template-1/
+├── src/
+│ ├── app/
+│ │ ├── layout.tsx
+│ │ └── page.tsx
+│ ├── components/
+│ │ ├── AnimatedImage.tsx
+│ │ └── theme-provider.tsx
+│ └── lib/
+│ └── utils.ts
+├── public/
+│ └── image.webp
+├── next.config.js
+└── package.json
+
+
+## Dependencies
+
+- Next.js: ^13.0.0
+- React: ^18.0.0
+- Framer Motion: ^10.0.0
+- Tailwind CSS: ^3.0.0
+
+For a full list of dependencies, please refer to the `package.json` file.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/AmazingFeature`
+3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
+4. Push to the branch: `git push origin feature/AmazingFeature`
+5. Open a pull request
+
+Please make sure to update tests as appropriate and adhere to the existing coding style.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Authors
+
+- Your Name - Initial work - [YourGitHubUsername](https://github.com/YourGitHubUsername)
+
+## Acknowledgments
+
+- Next.js team for the amazing framework
+- Framer Motion for the powerful animation library
+- All contributors who have helped shape this template
