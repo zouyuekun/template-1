@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic';
 
 const inter = Inter({ subsets: ["latin"] });
 
-// 动态导入 ThemeProvider，并禁用 SSR
+
 const ThemeProvider = dynamic(
   () => import("@/components/theme-provider").then((mod) => mod.ThemeProvider),
   { ssr: false }
