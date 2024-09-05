@@ -93,7 +93,7 @@ export default function Home() {
           </motion.div>
 
 
-          {/* Neon Gradient Card */}
+          {/* main image */}
           <motion.div 
             className="flex justify-center items-center overflow-visible p-10"
             variants={itemVariants}
@@ -115,6 +115,7 @@ export default function Home() {
                 width={1200}
                 height={900}
                 className="w-full h-auto max-w-6xl mx-auto rounded-2xl shadow-lg"
+                style={{ boxShadow: "0 4px 200px rgba(190, 24, 93, 0.5)" }}
                 priority 
               />
             </motion.div>
