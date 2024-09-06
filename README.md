@@ -60,7 +60,8 @@ For a full list of dependencies, please refer to the `package.json` file.
 
 If you find this project helpful, consider buying me a coffee ☕️
 
-![Buy Me A Coffee QR](public/Buy Me a Coffee QR.png)
+https://buymeacoffee.com/yuekun
+
 
 ## License
 
