@@ -3,6 +3,7 @@
 
 A modern, responsive Next.js template featuring eye-catching designs, multiple layouts, and unique animations. Perfect for creating stunning hero sections for your web projects in 2024 and beyond.
 
+This template may have its flaws. I’m a designer and haven’t been programming for long, so I appreciate your understanding if the structure isn’t clear or if there are coding mistakes. However, what’s important is that I’ve achieved some great animation effects, which I believe is the value designers bring, as we are more sensitive to graphical details. You are free to adjust it however you like, and with AI’s help, I’m sure you’ll be able to quickly incorporate this template into your project! Thank you for your support and understanding!
 ## Features
 
 - Responsive design
@@ -15,12 +16,12 @@ A modern, responsive Next.js template featuring eye-catching designs, multiple l
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/nextjs-hero-template.git
+   git clone https://github.com/zouyuekun/template-1.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd nextjs-hero-template
+   cd template-1
    ```
 
 3. Install dependencies:
