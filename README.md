@@ -56,6 +56,12 @@ This project uses Next.js 13+ with the App Router. Make sure your `next.config.j
 
 For a full list of dependencies, please refer to the `package.json` file.
 
+## Support the Project
+
+If you find this project helpful, consider buying me a coffee ☕️
+
+[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=yuekun&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/yuekun)
+
 ## License
 
 This project is licensed under the MIT License.
