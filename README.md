@@ -60,7 +60,7 @@ For a full list of dependencies, please refer to the `package.json` file.
 
 If you find this project helpful, consider buying me a coffee ☕️
 
-[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=yuekun&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/yuekun)
+![Buy Me A Coffee QR](public/Buy Me a Coffee QR.png)
 
 ## License
 
